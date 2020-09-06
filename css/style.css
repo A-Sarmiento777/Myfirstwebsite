@@ -1,0 +1,165 @@
+body{
+    margin:0px;
+    padding:0px;
+    background: #e8e8e8;
+    color: black;
+    min-height: 100vh;
+}
+
+header
+{
+    text-align: center;
+}
+
+h1 {
+width: auto;
+text-align: center;
+color: rgba(0, 0, 0, 0.226);
+margin:auto;
+padding: 10px;
+background:hsl(200, 100%, 96%);
+
+}
+
+.menu {
+    list-style:none;
+    padding:0;
+    background: black;
+    width: 100%;
+    margin: auto;
+
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+
+}
+
+.menu li {
+display: inline-block;
+text-align: center;
+}
+
+.menu li a:hover{
+    background: orange;
+}
+    #container{
+    width: 100;
+    
+}
+
+
+.reach {
+    margin: 400px;
+    width: 500px;
+    margin-top: 15%;
+    background:rgb(194, 194, 194);
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+    height: auto;
+    text-align: center;
+}
+
+.form {
+margin: 500px;
+width: 200px;
+margin-top: 20px;
+background:rgb(223, 223, 223);
+border-radius: 10px;
+padding: 50px;
+}
+
+.about {
+margin: 300px;
+width: 600px;
+margin-top: 20px;
+background:rgb(255, 255, 255);
+border-radius: 10px;
+padding: 20px 30px;
+text-align: justify;
+font-size: 13pt;
+height: 400px;
+}
+
+.picture1{
+    float: right;
+    margin-left: 30px;
+    height: 260px;
+    width: 260px;
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="submit"],
+textarea
+{
+    width: 200px;
+    margin: 15px 0; 
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    display: block;
+
+}
+.portfolio{
+width: 60%;
+background-color:rgb(255, 255, 255);;
+margin: 100px 250px;
+padding: 15px;
+height: 480px;
+border-radius: 20px;
+}   
+.image {
+float: left;
+margin:auto;
+height: 200px;
+width: 210px;
+padding:18px;
+}
+
+.image img{
+    border-radius: 20px;
+    border: 1px solid #333;
+}
+h3{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+h4{
+text-align: center;
+margin-top: -20pt;
+}
+
+.portfolio p {
+margin-top: 350px;
+}
+.portfolio::after{
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+
+
+
+
+footer {
+    padding:20;
+    background: black;
+    width: 100%;
+    margin: auto;
+    position: fixed;
+    bottom: 0;
+    color: white;
+    text-align: center;
+}
+
